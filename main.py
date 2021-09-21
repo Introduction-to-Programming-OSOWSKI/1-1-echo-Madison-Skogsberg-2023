@@ -1,7 +1,7 @@
 #WRITE YOUR CODE IN THIS FILE
 #define function
-def echo():
-    return "alright" * 5
+def echo(a, b):
+    return a * b
 
 #run function
-print(echo())
+print(echo("alright", 5))
